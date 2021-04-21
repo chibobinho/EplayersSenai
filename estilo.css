@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    height: 125px;
+}
+
+.container_header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.container_header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+.container_banner {
+    position: relative;
+    height: 625px;
+    background: rgba(226, 229, 46, 1);
+    background: -moz-linear-gradient(left, rgba(226, 229, 46, 1) 0%, rgba(114, 116, 23, 1) 31%, rgba(57, 58, 12, 1) 51%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226, 229, 46, 1)), color-stop(31%, rgba(114, 116, 23, 1)), color-stop(51%, rgba(57, 58, 12, 1)), color-stop(71%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-linear-gradient(left, rgba(226, 229, 46, 1) 0%, rgba(114, 116, 23, 1) 31%, rgba(57, 58, 12, 1) 51%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(left, rgba(226, 229, 46, 1) 0%, rgba(114, 116, 23, 1) 31%, rgba(57, 58, 12, 1) 51%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(226, 229, 46, 1) 0%, rgba(114, 116, 23, 1) 31%, rgba(57, 58, 12, 1) 51%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to right, rgba(226, 229, 46, 1) 0%, rgba(114, 116, 23, 1) 31%, rgba(57, 58, 12, 1) 51%, rgba(0, 0, 0, 1) 71%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e52e', endColorstr='#000000', GradientType=1);
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 100px;
+}
+
+.container_banner_conteudo {
+    position: absolute;
+    top: 100px;
+    left: 650px;
+    width: 611px;
+    height: 328px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_banner_conteudo span {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 36px;
+}
+
+.container_banner_conteudo button {
+    margin-top: 10px;
+    background-color: #BBBE29;
+    border: none;
+    color: white;
+    width: 381px;
+    height: 91px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container_banner img {
+    margin-top: 23px;
+    margin-bottom: 23px;
+    width: 361px;
+    height: 558px;
+}
+
+.jogos {
+    background-color: black;
+    height: 129px;
+    width: 100%;
+}
+
+.container_jogos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.container_jogos img {
+    width: 200px;
+}
+
+.container_sobre {
+    position: relative;
+    background-image: url(./in73r6sbixz31.png);
+    height: 625px;
+}
+
+.retangulo {
+    background-color: black;
+    transform: skewY(-2deg);
+    height: 542px;
+}
+
+h2 {
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 50px;
+}
+
+.box_sobre {
+    position: absolute;
+    left: 73px;
+    top: 80px;
+    width: 692px;
+    height: 488px;
+}
+
+.box_sobre span {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+}
+
+.container_ao_vivo {
+    height: 125px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3 {
+    color: #ffffff;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 40px;
+}
+
+.container_ao_vivo h3 {
+    width: 102px;
+}
+
+.container_ao_vivo span {
+    color: white;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+hr {
+    color: white;
+    height: 85px;
+}
+
+.container_ao_vivo img {
+    width: 60px;
+    height: 60px;
+}
+
+.container_noticias {
+    height: 1168px;
+    background: #000000;
+    opacity: 90%;
+}
+
+.box_titulos {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article {
+    width: 285px;
+    height: 420px;
+    background: rgba(196, 196, 196, 1);
+    background: -moz-linear-gradient(top, rgba(196, 196, 196, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(196, 196, 196, 1)), color-stop(100%, rgba(0, 0, 0, 1)));
+    background: -webkit-linear-gradient(top, rgba(196, 196, 196, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -o-linear-gradient(top, rgba(196, 196, 196, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(196, 196, 196, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(196, 196, 196, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#000000', GradientType=0);
+}
+
+article img {
+    width: 285px;
+    height: 190px;
+}
+
+article span {
+    display: inline-block;
+    width: 255px;
+    height: 183px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    text-align: left;
+}
+
+h4 {
+    margin-left: 10px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 24px;
+}
+
+.funciona {
+    width: 1199px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.noticias {
+    width: 895px;
+    height: 907px;
+}
+
+.espacamento_noticia {
+    width: 895px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.espacamento_noticia2 {
+    width: 895px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cardzao {
+    width: 285px;
+    height: 907px;
+}
+
+.article_jogos {
+    width: 285px;
+    height: 907px;
+    background-color: #BBBE29;
+}
+
+.card_jogo {
+    margin-left: 5px;
+    width: 285px;
+    height: 108px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article_jogos img {
+    width: 60px;
+    height: 60px;
+}
+
+.article_jogos span {
+    display: flex;
+    align-items: center;
+    width: 285px;
+    height: 108px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 0px;
+}
+
+.horario p {
+    margin-top: 10px;
+    width: 285px;
+    height: 30px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    text-align: center ;
+}
+
+footer {
+    height: 250px;
+    background-color: #000000;
+}
+
+h5 {
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+footer span {
+    width: 150px;
+    height: 20px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.divisao {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aumento span {
+    display: inline-block;
+    width: 340px;
+}
+
+.inserir {
+    margin-top: 20px;
+    display: flex;
+}
+
+.inserir input {
+    width: 211px;
+    height: 37px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inserir button {
+    width: 131px;
+    height: 37px;
+    background-color: #1E32E2;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    border: 0;
+}
+
+.alinhar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6 {
+    text-align: left;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+}
+
+.redes {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes img {
+    width: 47px;
+    height: 47px;
+}
