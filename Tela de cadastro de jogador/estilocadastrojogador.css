@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #000000;
+    height: 125px;
+}
+
+.container_header {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_header nav {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.container_header a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+.container_banner {
+    height: 237px;
+    background-image: url(./Rectangle\ 2.png);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+}
+
+h2 {
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+input {
+    width: 575px;
+    height: 30px;
+    background-color: #ABABAB;
+}
+
+.botao_cadastro {
+    width: 257px;
+    height: 40px;
+    background-color: #C31616;
+    color: #ffffff;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+}
+
+.container_conteudo {
+    height: 1110px;
+    background-color: #1E1C21;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box_cadastro {
+    width: 770px;
+    height: 629px;
+    background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
+    box-shadow: 1px 1px 20px 4px #000000;
+}
+
+.box_cadastro p {
+    width: 575px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.espacamento {
+    padding-top: 60px;
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.espacar {
+    padding-top: 60px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.espacar2 {
+    padding-top: 60px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.espacar3 {
+    padding-top: 60px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+select {
+    background-color: #ABABAB;
+    width: 575px;
+    height: 30px;
+}
+
+.tabela {
+    width: 770px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    background-color: #1E1C21;
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ffffff;
+}
+
+.tabela th {
+    text-align: left;
+    background-color: black;
+    height: 60px;
+    padding: 10px;
+    border-bottom: solid;
+    border-width: 5px;
+    border-color: #ffffff;
+}
+
+.tabela td {
+    height: 60px;
+    padding: 10px;
+}
+
+footer {
+    height: 250px;
+    background-color: #000000;
+}
+
+h5 {
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+}
+
+footer span {
+    width: 150px;
+    height: 20px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
+
+.divisao {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aumento span {
+    display: inline-block;
+    width: 340px;
+}
+
+.inserir {
+    margin-top: 20px;
+    display: flex;
+}
+
+.inserir input {
+    background-color: #ffffff;
+    width: 211px;
+    height: 37px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.inserir button {
+    width: 131px;
+    height: 37px;
+    background-color: #1E32E2;
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    border: 0;
+}
+
+.alinhar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h6 {
+    text-align: left;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+}
+
+.redes {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes img {
+    width: 47px;
+    height: 47px;
+}
