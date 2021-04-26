@@ -59,6 +59,7 @@ input {
     width: 575px;
     height: 30px;
     background-color: #ABABAB;
+    padding: 2px 5px;
 }
 
 .botao_cadastro {

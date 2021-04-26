@@ -59,6 +59,7 @@ input {
     width: 575px;
     height: 30px;
     background-color: #ABABAB;
+    padding: 2px 5px;
 }
 
 .botao_img {
@@ -245,4 +246,126 @@ h6 {
 .redes img {
     width: 47px;
     height: 47px;
+}
+@media (max-width: 420px) {
+    .container{
+        width: 80vw;
+    }
+    input {
+        width: 275px;
+        height: 30px;
+        background-color: #ABABAB;
+        padding: 2px 5px;
+    }
+    .espacar {
+        width: 575px;
+        padding-top: 60px;
+        padding-left: 30px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .tabela {
+        width: 336px;
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        background-color: #1E1C21;
+        border-collapse: collapse;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #ffffff;
+    }
+    footer {
+        height: 465px;
+        background-color: #000000;
+    }
+    
+    h5 {
+        color: #ffffff;
+        font-weight: 900;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 30px;
+    }
+    
+    footer span {
+        width: 150px;
+        height: 20px;
+        color: white;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 15px;
+        text-align: left;
+    }
+    
+    .coluna {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .divisao {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .aumento span {
+        display: inline-block;
+        width: 340px;
+    }
+    
+    .inserir {
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .inserir input {
+        background-color: #ffffff;
+        width: 211px;
+        height: 37px;
+        font-family: 'Titillium Web', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+    }
+    
+    .inserir button {
+        width: 131px;
+        height: 37px;
+        background-color: #1E32E2;
+        font-family: 'Titillium Web', sans-serif;
+        color: #ffffff;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 25px;
+        border: 0;
+    }
+    
+    .alinhar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    h6 {
+        text-align: left;
+        color: #ffffff;
+        font-weight: 900;
+        font-family: 'Titillium Web', sans-serif;
+        font-size: 25px;
+    }
+    
+    .redes {
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .redes img {
+        width: 47px;
+        height: 47px;
+    }    
 }
